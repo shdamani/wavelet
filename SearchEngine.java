@@ -16,7 +16,7 @@ import java.util.ArrayList;
                 if (parameters[0].equals("s")) {
                     for(int i=0;i<search.size();i++){
                         if(search.get(i).contains(parameters[1])){
-                            searchresults.add(parameters[1]);
+                            searchresults.add(search.get(i));
                         }
                     }
                     /*num += Integer.parseInt(parameters[1]);
